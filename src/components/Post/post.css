@@ -1,0 +1,135 @@
+.postImage{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 12px;
+}
+
+
+
+.postTop{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.postUserName{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 5px;
+    font-family: sans-serif;
+}
+
+.postTime{
+    font-size: 11px;
+
+}
+
+.post{
+    font-family: sans-serif;
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(171,152,171,1);
+-moz-box-shadow: 1px 1px 1px 1px rgba(171,152,171,1);
+box-shadow: 1px 1px 1px 1px rgba(171,152,171,1);
+    margin: 30px 0;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 95%;
+
+}
+
+.postedImage{
+    width: 95%;
+    height: 80%;
+    background-size: cover;
+    margin-left: 10px;
+
+
+}
+
+.postBottom{
+
+    display: flex;
+    align-items: center;
+    width: 93%;
+    margin-left: 5px;
+    justify-content: space-between;
+}
+
+.reactIconPic{
+    height: 24px;
+    width: 24px;
+    margin-left: 2px;
+    cursor: pointer;
+
+}
+
+.postBottomLeft{
+    display: flex;
+    align-items: center;
+
+}   
+
+.likeCount{
+    margin-left: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.comments{
+    margin-right: 10px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.postCenter{
+    margin-left: 10px;
+}
+
+.postCaption{
+    margin-top: 20px;
+    margin-left: 9px;
+    font-size: 14px;
+}
+
+.postOptions{
+    
+    display: flex;
+    margin-left: 55px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+
+
+.postOption{
+    display: flex;
+    align-items: center;
+    margin-right: 140px;
+    cursor: pointer;
+    font-size: 13px;
+    
+}
+
+.line{
+    margin: 4px;
+}
+
+.PostOptionText{
+    margin-left: 3px;
+    font-family: sans-serif;
+    
+}
+
+.bottomNew{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+

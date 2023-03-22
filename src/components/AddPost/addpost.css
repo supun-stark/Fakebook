@@ -1,0 +1,80 @@
+.propic{
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.addPost{
+    width: 95%;
+    border-radius: 10px;
+    background-color: white;
+    height: 130px;
+    margin-top: 10px;
+    margin-left: 10px;
+    -webkit-box-shadow: 1px 1px 2px 0px rgba(171,152,171,1);
+-moz-box-shadow: 1px 1px 2px 0px rgba(171,152,171,1);
+box-shadow: 1px 1px 2px 0px rgba(171,152,171,1);
+}
+
+.addPostContainer{
+    padding: 15px;
+}
+
+.addPostTop{
+    display: flex;
+    align-items: center;
+}
+
+.addPostInput{
+    border: none;
+    width: 80%;
+    margin-left: 10px;
+    font-size: 13px;
+    
+}
+
+.addPostInput:focus{
+    outline: none;
+}
+
+.postHr{
+    margin: 15px;
+}
+
+.addPostBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.addPostOptions{
+    display: flex;
+    margin-left: 40px;
+}
+
+
+.addPostOption{
+    display: flex;
+    align-items: center;
+    margin-right: 18px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.addPostOptionText{
+    margin-left: 3px;
+    font-family: sans-serif;
+    
+}
+
+.postButton{
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    background-color: rgb(18, 22, 245);
+    margin-right: 17px;
+}

@@ -1,0 +1,139 @@
+.rightPaneBox{
+    flex: 3;
+    height: calc(100vh - 60px);
+    overflow-y: scroll;
+    position: sticky;
+    top: 60px;
+}
+
+.rightPaneContainer{
+    padding: 20px 20px 0 0;
+
+}
+
+.adContainer{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.sponsered{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #3b5998;
+}
+
+.birthdayText{
+    color: #3b5998;
+    font-size: 13px;
+    font-family: sans-serif;
+    
+}
+
+.adImage{
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 98%;
+}
+
+.birthdayImage{
+    height: 35px;
+    width: 40px;
+    
+    margin-left: 15px;
+}
+
+.birthdayContainer{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 1px 1px 2px 0px rgba(171,152,171,1);
+-moz-box-shadow: 1px 1px 2px 0px rgba(171,152,171,1);
+box-shadow: 1px 1px 2px 0px rgba(171,152,171,1);
+}
+
+
+.onlineContainer{
+    background-color: rgb(2, 121, 38);
+    color: white;
+    width: 95%;
+    height: 25px;
+    margin-left: 15px;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    
+}
+
+.onlineText{
+    
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-left: 15px;
+    
+    
+}
+
+.onlineNew{
+    padding: 3px;
+    margin: 3px;
+}
+
+
+.text{
+
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.note{
+    margin-top: 8px;
+}
+
+
+.friendImg{
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.onlineFriendImgContainer{
+    display: flex;
+    position: relative;
+}
+
+.onlineStatus{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(4, 148, 47);
+    position: absolute;
+    top: 23px;
+    right: 0;
+    border: 2px solid white;
+    
+}
+
+.onlineFriendName{
+    margin-left: 8px;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.onlineFriend{
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    -webkit-box-shadow: 1px 1px 2px 0px rgba(171,152,171,1);
+-moz-box-shadow: 1px 1px 2px 0px rgba(171,152,171,1);
+box-shadow: 1px 1px 2px 0px rgba(171,152,171,1);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    
+}
